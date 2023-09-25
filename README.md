@@ -130,7 +130,8 @@ if (input[i].Contains("+39"))
     }
 }
 ```
-## In questa parte, all'interno del ciclo for, vengono eseguite due condizioni di controllo annidate. La prima condizione verifica se la stringa input[i] contiene il prefisso "+39". Se questa condizione è vera, viene eseguita una seconda condizione per verificare se la lunghezza del numero è esattamente 13 caratteri. Se entrambe le condizioni sono soddisfatte, la variabile numeroTrovato viene assegnata con il valore corrente di input[i], e il ciclo viene interrotto con break.
+## In questa parte, all'interno del ciclo for, vengono eseguite due condizioni di controllo annidate. La prima condizione verifica se la stringa input[i] contiene il prefisso "+39". Se questa condizione è vera, viene eseguita una seconda condizione per verificare se 
+   la lunghezza del numero è esattamente 13 caratteri. Se entrambe le condizioni sono soddisfatte, la variabile numeroTrovato viene assegnata con il valore corrente di input[i], e il ciclo viene interrotto con break.
 
 * Controllo del prefisso 0039 e della lunghezza del numero
 ``` c#
@@ -144,7 +145,8 @@ else if (input[i].Contains("0039"))
     }
 }
 ```
-## In questa parte, vengono eseguite condizioni di controllo simili alla parte precedente, ma stavolta si verifica la presenza del prefisso "0039" e la lunghezza del numero deve essere di 14 caratteri. Se queste condizioni sono soddisfatte, la variabile numeroTrovato viene assegnata con il valore corrente di input[i], e il ciclo viene interrotto con break.
+## In questa parte, vengono eseguite condizioni di controllo simili alla parte precedente, ma stavolta si verifica la presenza del prefisso "0039" e la lunghezza del numero deve essere di 14 caratteri. Se queste condizioni sono soddisfatte, la variabile numeroTrovato 
+   viene assegnata con il valore corrente di input[i], e il ciclo viene interrotto con break.
 
 * Controllo del numero che inizia con 3 e della lunghezza del numero
 ``` c#
@@ -160,7 +162,8 @@ else if (input[i].Contains("3"))
     }
 }
 ``` 
-## In questa parte, vengono eseguite ulteriori condizioni di controllo. Qui verifichiamo se il numero inizia con il carattere "3" e se la lunghezza è di 10 caratteri. Se queste due condizioni sono soddisfatte, viene eseguito un controllo aggiuntivo per verificare che non ci siano spazi nella stringa. Se anche questa condizione è soddisfatta, la variabile numeroTrovato viene assegnata con il valore corrente di input[i], e il ciclo viene interrotto con break
+## In questa parte, vengono eseguite ulteriori condizioni di controllo. Qui verifichiamo se il numero inizia con il carattere "3" e se la lunghezza è di 10 caratteri. Se queste due condizioni sono soddisfatte, viene eseguito un controllo aggiuntivo per verificare che 
+   non ci siano spazi nella stringa. Se anche questa condizione è soddisfatta, la variabile numeroTrovato viene assegnata con il valore corrente di input[i], e il ciclo viene interrotto con break
 
 *  Restituzione del numero trovato
 ``` c#
@@ -168,6 +171,7 @@ else if (input[i].Contains("3"))
 
 return numeroTrovato;
 ``` 
-## Questa è la parte finale del codice. Qui viene chiuso il ciclo for e la funzione restituisce il valore contenuto nella variabile numeroTrovato, che rappresenta il primo numero che soddisfa una delle condizioni specificate all'interno del ciclo. Se nessuna di queste condizioni è soddisfatta, il valore di numeroTrovato rimarrà una stringa vuota.
+## Questa è la parte finale del codice. Qui viene chiuso il ciclo for e la funzione restituisce il valore contenuto nella variabile numeroTrovato, che rappresenta il primo numero che soddisfa una delle condizioni specificate all'interno del ciclo. Se nessuna di queste 
+   condizioni è soddisfatta, il valore di numeroTrovato rimarrà una stringa vuota.
 
   
