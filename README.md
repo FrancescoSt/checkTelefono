@@ -116,7 +116,7 @@ string numeroTrovato = "";
 
   for (int i = 0; i < input.Length; i++)
 ```
-## In questa parte, viene dichiarata una variabile di stringa chiamata numeroTrovato e inizializzata con una stringa vuota. Successivamente, inizia un ciclo for che itererà attraverso tutti gli elementi nell'array di stringhe input. Questo è il punto iniziale del nostro codice.
+## In questa parte, viene dichiarata una variabile di stringa chiamata numeroTrovato e inizializzata con una stringa vuota. Successivamente, inizia un ciclo for che itererà attraverso tutti gli elementi nell'array di stringhe input. 
 
 *  Controllo del prefisso +39 e della lunghezza del numero
 ``` c#
